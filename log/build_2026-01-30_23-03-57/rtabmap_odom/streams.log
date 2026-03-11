@@ -1,0 +1,56 @@
+[0.024s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/brace/codeSpace/navi/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/brace/codeSpace/navi/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/brace/codeSpace/navi/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/brace/codeSpace/navi/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap_odom -- -j16 -l16
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_odom[0m
+[0.115s] [  8%] [32m[1mLinking CXX shared library librtabmap_odom.so[0m
+[2.110s] [ 16%] Built target rtabmap_odom
+[2.133s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_odom_plugins[0m
+[2.181s] [ 25%] [32m[1mLinking CXX shared library librtabmap_odom_plugins.so[0m
+[4.712s] [ 50%] Built target rtabmap_odom_plugins
+[4.729s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_stereo_odometry[0m
+[4.729s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_rgbd_odometry[0m
+[4.729s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_icp_odometry[0m
+[4.759s] [ 66%] [32m[1mLinking CXX executable icp_odometry[0m
+[4.759s] [ 66%] [32m[1mLinking CXX executable rgbd_odometry[0m
+[4.760s] [ 75%] [32m[1mLinking CXX executable stereo_odometry[0m
+[8.583s] [ 83%] Built target rtabmap_stereo_odometry
+[8.589s] [ 91%] Built target rtabmap_icp_odometry
+[8.590s] [100%] Built target rtabmap_rgbd_odometry
+[8.604s] Invoked command in '/home/brace/codeSpace/navi/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/brace/codeSpace/navi/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/brace/codeSpace/navi/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/brace/codeSpace/navi/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/brace/codeSpace/navi/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap_odom -- -j16 -l16
+[8.609s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_odom': AMENT_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/brace/codeSpace/navi/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/brace/codeSpace/navi/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/brace/codeSpace/navi/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/brace/codeSpace/navi/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/brace/codeSpace/navi/build/rtabmap_odom
+[8.621s] -- Install configuration: "Release"
+[8.623s] -- Execute custom install script
+[8.623s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.sh
+[8.624s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/environment/library_path.dsv
+[8.625s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/lib/rtabmap_odom/rgbd_odometry
+[8.626s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/lib/rtabmap_odom/icp_odometry
+[8.626s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/lib/rtabmap_odom/stereo_odometry
+[8.626s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/ament_index/resource_index/package_run_dependencies/rtabmap_odom
+[8.627s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/ament_index/resource_index/parent_prefix_path/rtabmap_odom
+[8.627s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.sh
+[8.628s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/environment/ament_prefix_path.dsv
+[8.628s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/environment/path.sh
+[8.629s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/environment/path.dsv
+[8.629s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/local_setup.bash
+[8.629s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/local_setup.sh
+[8.630s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/local_setup.zsh
+[8.630s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/local_setup.dsv
+[8.630s] -- Symlinking: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/package.dsv
+[8.642s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/ament_index/resource_index/packages/rtabmap_odom
+[8.642s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/ament_index/resource_index/rclcpp_components/rtabmap_odom
+[8.643s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.643s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.643s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_targets-extras.cmake
+[8.643s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/cmake/ament_cmake_export_libraries-extras.cmake
+[8.643s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig.cmake
+[8.643s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomConfig-version.cmake
+[8.643s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/package.xml
+[8.644s] -- Installing: /home/brace/codeSpace/navi/install/rtabmap_odom/lib/librtabmap_odom.so
+[8.646s] -- Set runtime path of "/home/brace/codeSpace/navi/install/rtabmap_odom/lib/librtabmap_odom.so" to ""
+[8.646s] -- Installing: /home/brace/codeSpace/navi/install/rtabmap_odom/lib/librtabmap_odom_plugins.so
+[8.650s] -- Set runtime path of "/home/brace/codeSpace/navi/install/rtabmap_odom/lib/librtabmap_odom_plugins.so" to ""
+[8.650s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_odom/include
+[8.650s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_odom/include/rtabmap_odom
+[8.650s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_odom/include/rtabmap_odom/OdometryROS.h
+[8.650s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_odom/include/rtabmap_odom/visibility.h
+[8.651s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport.cmake
+[8.651s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport-release.cmake
+[8.655s] Invoked command in '/home/brace/codeSpace/navi/build/rtabmap_odom' returned '0': AMENT_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/brace/codeSpace/navi/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/brace/codeSpace/navi/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/brace/codeSpace/navi/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/brace/codeSpace/navi/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/brace/codeSpace/navi/build/rtabmap_odom

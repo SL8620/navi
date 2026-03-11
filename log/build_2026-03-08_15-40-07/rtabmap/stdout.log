@@ -1,0 +1,93 @@
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_utilite[0m
+[  5%] Built target rtabmap_utilite
+[35m[1mConsolidate compiler generated dependencies of target res_tool[0m
+[  6%] Built target res_tool
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_core[0m
+[ 57%] Built target rtabmap_core
+[ 57%] [34m[1mAutomatic MOC and UIC for target rtabmap_gui[0m
+[35m[1mConsolidate compiler generated dependencies of target imagesJoiner[0m
+[35m[1mConsolidate compiler generated dependencies of target recovery[0m
+[35m[1mConsolidate compiler generated dependencies of target stereoEval[0m
+[35m[1mConsolidate compiler generated dependencies of target kitti_dataset[0m
+[35m[1mConsolidate compiler generated dependencies of target camera[0m
+[35m[1mConsolidate compiler generated dependencies of target extractObject[0m
+[35m[1mConsolidate compiler generated dependencies of target globalBundleAdjustment[0m
+[35m[1mConsolidate compiler generated dependencies of target rgbd_dataset[0m
+[35m[1mConsolidate compiler generated dependencies of target cleanupLocalGrids[0m
+[35m[1mConsolidate compiler generated dependencies of target euroc_dataset[0m
+[35m[1mConsolidate compiler generated dependencies of target consoleApp[0m
+[35m[1mConsolidate compiler generated dependencies of target info[0m
+[35m[1mConsolidate compiler generated dependencies of target detectMoreLoopClosures[0m
+[35m[1mConsolidate compiler generated dependencies of target export[0m
+[ 57%] Built target recovery
+[ 57%] Built target imagesJoiner
+[35m[1mConsolidate compiler generated dependencies of target reprocess[0m
+[ 58%] Built target stereoEval
+[ 59%] Built target camera
+[ 61%] Built target kitti_dataset
+[ 62%] Built target rgbd_dataset
+[ 61%] Built target globalBundleAdjustment
+[ 63%] Built target info
+[ 64%] Built target cleanupLocalGrids
+[ 65%] Built target detectMoreLoopClosures
+[ 66%] Built target extractObject
+[ 66%] Built target consoleApp
+[35m[1mConsolidate compiler generated dependencies of target lidar_viewer[0m
+[ 67%] Built target euroc_dataset
+[ 68%] Built target reprocess
+[ 68%] Built target export
+[ 68%] Built target rtabmap_gui_autogen
+[ 68%] Built target lidar_viewer
+[35m[1mConsolidate compiler generated dependencies of target rtabmap_gui[0m
+[ 69%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MainWindow.cpp.o[0m
+[ 69%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DatabaseViewer.cpp.o[0m
+[ 69%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/PreferencesDialog.cpp.o[0m
+[ 70%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/CloudViewer.cpp.o[0m
+[ 70%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/GraphViewer.cpp.o[0m
+[ 70%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ExportCloudsDialog.cpp.o[0m
+[ 71%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/MultiSessionLocWidget.cpp.o[0m
+[ 71%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/DepthCalibrationDialog.cpp.o[0m
+[ 72%] [32mBuilding CXX object guilib/src/CMakeFiles/rtabmap_gui.dir/ParametersToolBox.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library ../../bin/librtabmap_gui.so[0m
+[ 84%] Built target rtabmap_gui
+[ 85%] [34m[1mAutomatic MOC and UIC for target lidar_mapping[0m
+[ 86%] [34m[1mAutomatic MOC and UIC for target rgbd_mapping[0m
+[ 87%] [34m[1mAutomatic MOC and UIC for target wifi_mapping[0m
+[ 88%] [34m[1mAutomatic MOC and UIC for target noEventsExample[0m
+[ 89%] [32mBuilding CXX object tools/Report/CMakeFiles/report.dir/main.cpp.o[0m
+[ 89%] [32mBuilding CXX object app/src/CMakeFiles/rtabmap_app.dir/main.cpp.o[0m
+[ 89%] [32mBuilding CXX object tools/EpipolarGeometry/CMakeFiles/epipolar_geometry.dir/main.cpp.o[0m
+[ 90%] [32mBuilding CXX object tools/DatabaseViewer/CMakeFiles/databaseViewer.dir/main.cpp.o[0m
+[ 90%] [32mBuilding CXX object tools/CameraRGBD/CMakeFiles/rgbd_camera.dir/main.cpp.o[0m
+[ 90%] [32mBuilding CXX object examples/BOWMapping/CMakeFiles/bow_mapping.dir/main.cpp.o[0m
+[ 90%] [32mBuilding CXX object tools/OdometryViewer/CMakeFiles/odometryViewer.dir/main.cpp.o[0m
+[ 91%] [32mBuilding CXX object tools/DataRecorder/CMakeFiles/dataRecorder.dir/main.cpp.o[0m
+[ 92%] [32mBuilding CXX object tools/Matcher/CMakeFiles/matcher.dir/main.cpp.o[0m
+[ 93%] [32mBuilding CXX object tools/Calibration/CMakeFiles/calibration.dir/main.cpp.o[0m
+[ 93%] Built target noEventsExample_autogen
+[ 94%] [32mBuilding CXX object examples/NoEventsExample/CMakeFiles/noEventsExample.dir/noEventsExample_autogen/mocs_compilation.cpp.o[0m
+[ 94%] [32mBuilding CXX object examples/NoEventsExample/CMakeFiles/noEventsExample.dir/main.cpp.o[0m
+[ 94%] Built target rgbd_mapping_autogen
+[ 95%] [32mBuilding CXX object examples/RGBDMapping/CMakeFiles/rgbd_mapping.dir/rgbd_mapping_autogen/mocs_compilation.cpp.o[0m
+[ 95%] [32mBuilding CXX object examples/RGBDMapping/CMakeFiles/rgbd_mapping.dir/main.cpp.o[0m
+[ 95%] Built target wifi_mapping_autogen
+[ 95%] Built target lidar_mapping_autogen
+[ 95%] [32mBuilding CXX object examples/WifiMapping/CMakeFiles/wifi_mapping.dir/wifi_mapping_autogen/mocs_compilation.cpp.o[0m
+[ 95%] [32mBuilding CXX object examples/LidarMapping/CMakeFiles/lidar_mapping.dir/lidar_mapping_autogen/mocs_compilation.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable ../../bin/rtabmap-bow_mapping[0m
+[ 95%] [32m[1mLinking CXX executable ../../bin/rtabmap-calibration[0m
+[ 95%] [32m[1mLinking CXX executable ../../bin/rtabmap-databaseViewer[0m
+[ 96%] [32m[1mLinking CXX executable ../../bin/rtabmap-odometryViewer[0m
+[ 96%] [32m[1mLinking CXX executable ../../bin/rtabmap-dataRecorder[0m
+[ 97%] [32m[1mLinking CXX executable ../../bin/rtabmap[0m
+[ 98%] [32m[1mLinking CXX executable ../../bin/rtabmap-epipolar_geometry[0m
+[ 98%] Built target bow_mapping
+[ 99%] [32mBuilding CXX object examples/LidarMapping/CMakeFiles/lidar_mapping.dir/main.cpp.o[0m
+[100%] [32mBuilding CXX object examples/WifiMapping/CMakeFiles/wifi_mapping.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../../bin/rtabmap-matcher[0m
+[100%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_camera[0m
+[100%] [32m[1mLinking CXX executable ../../bin/rtabmap-noEventsExample[0m
+[100%] [32m[1mLinking CXX executable ../../bin/rtabmap-rgbd_mapping[0m
+[100%] [32m[1mLinking CXX executable ../../bin/rtabmap-report[0m
+[100%] [32m[1mLinking CXX executable ../../bin/rtabmap-wifi_mapping[0m
+[100%] [32m[1mLinking CXX executable ../../bin/rtabmap-lidar_mapping[0m

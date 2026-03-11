@@ -1,0 +1,36 @@
+[2.758s] Invoking command in '/home/brace/codeSpace/navi/build/brace': PYTHONPATH=/home/brace/codeSpace/navi/build/brace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/brace/codeSpace/navi/build/brace/build
+[3.140s] running develop
+[3.411s] Removing /home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages/brace.egg-link (link to .)
+[3.540s] Invoked command in '/home/brace/codeSpace/navi/build/brace' returned '0': PYTHONPATH=/home/brace/codeSpace/navi/build/brace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/brace/codeSpace/navi/build/brace/build
+[3.576s] Invoking command in '/home/brace/codeSpace/navi/src/brace': PYTHONPATH=/home/brace/codeSpace/navi/build/brace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../navi/build/brace build --build-base /home/brace/codeSpace/navi/build/brace/build install --record /home/brace/codeSpace/navi/build/brace/install.log --single-version-externally-managed install_data --force
+[4.100s] running egg_info
+[4.100s] writing ../navi/build/brace/brace.egg-info/PKG-INFO
+[4.100s] writing dependency_links to ../navi/build/brace/brace.egg-info/dependency_links.txt
+[4.101s] writing entry points to ../navi/build/brace/brace.egg-info/entry_points.txt
+[4.101s] writing requirements to ../navi/build/brace/brace.egg-info/requires.txt
+[4.101s] writing top-level names to ../navi/build/brace/brace.egg-info/top_level.txt
+[4.103s] reading manifest file '../navi/build/brace/brace.egg-info/SOURCES.txt'
+[4.107s] writing manifest file '../navi/build/brace/brace.egg-info/SOURCES.txt'
+[4.107s] running build
+[4.107s] running build_py
+[4.108s] creating /home/brace/codeSpace/navi/build/brace/build
+[4.108s] creating /home/brace/codeSpace/navi/build/brace/build/lib
+[4.108s] creating /home/brace/codeSpace/navi/build/brace/build/lib/brace
+[4.108s] copying brace/__init__.py -> /home/brace/codeSpace/navi/build/brace/build/lib/brace
+[4.112s] running install
+[4.113s] running install_lib
+[4.114s] creating /home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages/brace
+[4.114s] copying /home/brace/codeSpace/navi/build/brace/build/lib/brace/__init__.py -> /home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages/brace
+[4.120s] byte-compiling /home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages/brace/__init__.py to __init__.cpython-310.pyc
+[4.120s] running install_data
+[4.120s] copying resource/brace -> /home/brace/codeSpace/navi/install/brace/share/ament_index/resource_index/packages
+[4.121s] copying package.xml -> /home/brace/codeSpace/navi/install/brace/share/brace
+[4.121s] copying launch/display.launch.py -> /home/brace/codeSpace/navi/install/brace/share/brace/launch
+[4.122s] copying rviz/brace.rviz -> /home/brace/codeSpace/navi/install/brace/share/brace/rviz
+[4.122s] copying urdf/brace.urdf -> /home/brace/codeSpace/navi/install/brace/share/brace/urdf
+[4.122s] copying meshes/base_link.STL -> /home/brace/codeSpace/navi/install/brace/share/brace/meshes
+[4.167s] running install_egg_info
+[4.174s] Copying ../navi/build/brace/brace.egg-info to /home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages/brace-0.0.0-py3.10.egg-info
+[4.179s] running install_scripts
+[4.249s] writing list of installed files to '/home/brace/codeSpace/navi/build/brace/install.log'
+[4.354s] Invoked command in '/home/brace/codeSpace/navi/src/brace' returned '0': PYTHONPATH=/home/brace/codeSpace/navi/build/brace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../navi/build/brace build --build-base /home/brace/codeSpace/navi/build/brace/build install --record /home/brace/codeSpace/navi/build/brace/install.log --single-version-externally-managed install_data --force

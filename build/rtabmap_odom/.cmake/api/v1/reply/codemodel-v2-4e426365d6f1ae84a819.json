@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-8fefd62609074101d718.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtabmap_odom",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_icp_odometry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_icp_odometry-Release-c0d1301cfd96f92fb676.json",
+					"name" : "rtabmap_icp_odometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_odom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_odom-Release-0584f7ec1034a3459a40.json",
+					"name" : "rtabmap_odom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_odom_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_odom_plugins-Release-e20a78e45997efea5639.json",
+					"name" : "rtabmap_odom_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_odom_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_odom_uninstall-Release-9ecefccc5e41b1cdd175.json",
+					"name" : "rtabmap_odom_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rgbd_odometry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rgbd_odometry-Release-22f91455cbbbf0278fec.json",
+					"name" : "rtabmap_rgbd_odometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_stereo_odometry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_stereo_odometry-Release-d07f253747b09ba65a6f.json",
+					"name" : "rtabmap_stereo_odometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-3565a875b7a075052b3b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/brace/codeSpace/navi/build/rtabmap_odom",
+		"source" : "/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_odom"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

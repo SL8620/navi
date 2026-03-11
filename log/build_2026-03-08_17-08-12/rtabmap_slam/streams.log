@@ -1,0 +1,128 @@
+[0.033s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_slam': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/home/brace/codeSpace/navi/install/brace:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brace/codeSpace/navi/install/rtabmap_slam
+[0.069s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.285s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.308s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.358s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.362s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.370s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.471s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.491s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[0.517s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.535s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.551s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.567s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.582s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.591s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.601s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.655s] -- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.676s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.684s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[0.687s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.760s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.777s] -- Found rtabmap_msgs: 0.22.1 (/home/brace/codeSpace/navi/install/rtabmap_msgs/share/rtabmap_msgs/cmake)
+[0.792s] -- Found rtabmap_util: 0.22.1 (/home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/cmake)
+[0.959s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.960s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.991s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.019s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.273s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.278s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.405s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.412s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.420s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.539s] -- Found Qhull version 8.0.2
+[1.668s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.846s] -- Found rtabmap_sync: 0.22.1 (/home/brace/codeSpace/navi/install/rtabmap_sync/share/rtabmap_sync/cmake)
+[1.875s] -- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)
+[1.890s] -- Found aruco_msgs: 5.0.5 (/opt/ros/humble/share/aruco_msgs/cmake)
+[1.912s] CMake Warning at CMakeLists.txt:42 (find_package):
+[1.912s]   By not providing "Findaruco_markers_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.912s]   project has asked CMake to find a package configuration file provided by
+[1.912s]   "aruco_markers_msgs", but CMake did not find one.
+[1.913s] 
+[1.913s]   Could not find a package configuration file provided by
+[1.913s]   "aruco_markers_msgs" with any of the following names:
+[1.913s] 
+[1.913s]     aruco_markers_msgsConfig.cmake
+[1.913s]     aruco_markers_msgs-config.cmake
+[1.913s] 
+[1.913s]   Add the installation prefix of "aruco_markers_msgs" to CMAKE_PREFIX_PATH or
+[1.913s]   set "aruco_markers_msgs_DIR" to a directory containing one of the above
+[1.913s]   files.  If "aruco_markers_msgs" provides a separate development package or
+[1.913s]   SDK, be sure it has been installed.
+[1.913s] 
+[1.914s] 
+[1.914s] -- Found aruco_opencv_msgs: 2.4.1 (/opt/ros/humble/share/aruco_opencv_msgs/cmake)
+[1.935s] CMake Warning at CMakeLists.txt:44 (find_package):
+[1.935s]   By not providing "Findros2_aruco_interfaces.cmake" in CMAKE_MODULE_PATH
+[1.935s]   this project has asked CMake to find a package configuration file provided
+[1.935s]   by "ros2_aruco_interfaces", but CMake did not find one.
+[1.935s] 
+[1.936s]   Could not find a package configuration file provided by
+[1.936s]   "ros2_aruco_interfaces" with any of the following names:
+[1.936s] 
+[1.936s]     ros2_aruco_interfacesConfig.cmake
+[1.936s]     ros2_aruco_interfaces-config.cmake
+[1.936s] 
+[1.936s]   Add the installation prefix of "ros2_aruco_interfaces" to CMAKE_PREFIX_PATH
+[1.936s]   or set "ros2_aruco_interfaces_DIR" to a directory containing one of the
+[1.936s]   above files.  If "ros2_aruco_interfaces" provides a separate development
+[1.936s]   package or SDK, be sure it has been installed.
+[1.936s] 
+[1.936s] 
+[1.936s] -- WITH apriltag_msgs
+[1.937s] -- WITH aruco_msgs
+[1.937s] -- WITH aruco_opencv_msgs
+[1.937s] -- WITH nav2_msgs
+[2.023s] -- Configuring done
+[2.190s] -- Generating done
+[2.207s] -- Build files have been written to: /home/brace/codeSpace/navi/build/rtabmap_slam
+[2.226s] Invoked command in '/home/brace/codeSpace/navi/build/rtabmap_slam' returned '0': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/home/brace/codeSpace/navi/install/brace:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brace/codeSpace/navi/install/rtabmap_slam
+[2.227s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_slam': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/home/brace/codeSpace/navi/install/brace:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap_slam -- -j16 -l16
+[2.285s] Consolidate compiler generated dependencies of target rtabmap_slam_plugins
+[2.349s] [ 25%] Building CXX object CMakeFiles/rtabmap_slam_plugins.dir/src/CoreWrapper.cpp.o
+[108.550s] [ 50%] Linking CXX shared library librtabmap_slam_plugins.so
+[111.686s] [ 50%] Built target rtabmap_slam_plugins
+[111.706s] Consolidate compiler generated dependencies of target rtabmap_node
+[111.727s] [ 75%] Building CXX object CMakeFiles/rtabmap_node.dir/src/CoreNode.cpp.o
+[122.988s] [100%] Linking CXX executable rtabmap
+[124.991s] [100%] Built target rtabmap_node
+[125.008s] Invoked command in '/home/brace/codeSpace/navi/build/rtabmap_slam' returned '0': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/home/brace/codeSpace/navi/install/brace:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap_slam -- -j16 -l16
+[125.010s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_slam': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/home/brace/codeSpace/navi/install/brace:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/brace/codeSpace/navi/build/rtabmap_slam
+[125.026s] -- Install configuration: "Release"
+[125.028s] -- Execute custom install script
+[125.029s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/environment/library_path.sh
+[125.030s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/environment/library_path.dsv
+[125.030s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/lib/rtabmap_slam/rtabmap
+[125.031s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/ament_index/resource_index/package_run_dependencies/rtabmap_slam
+[125.032s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/ament_index/resource_index/parent_prefix_path/rtabmap_slam
+[125.032s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/environment/ament_prefix_path.sh
+[125.033s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/environment/ament_prefix_path.dsv
+[125.033s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/environment/path.sh
+[125.033s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/environment/path.dsv
+[125.034s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/local_setup.bash
+[125.034s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/local_setup.sh
+[125.034s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/local_setup.zsh
+[125.035s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/local_setup.dsv
+[125.035s] -- Symlinking: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/package.dsv
+[125.050s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/ament_index/resource_index/packages/rtabmap_slam
+[125.050s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/ament_index/resource_index/rclcpp_components/rtabmap_slam
+[125.051s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_dependencies-extras.cmake
+[125.051s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_include_directories-extras.cmake
+[125.052s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_targets-extras.cmake
+[125.052s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/cmake/ament_cmake_export_libraries-extras.cmake
+[125.053s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamConfig.cmake
+[125.053s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamConfig-version.cmake
+[125.053s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/package.xml
+[125.056s] -- Installing: /home/brace/codeSpace/navi/install/rtabmap_slam/lib/librtabmap_slam_plugins.so
+[125.065s] -- Set runtime path of "/home/brace/codeSpace/navi/install/rtabmap_slam/lib/librtabmap_slam_plugins.so" to ""
+[125.065s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_slam/include
+[125.065s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_slam/include/rtabmap_slam
+[125.065s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_slam/include/rtabmap_slam/CoreWrapper.h
+[125.065s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_slam/include/rtabmap_slam/visibility.h
+[125.065s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport.cmake
+[125.065s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport-release.cmake
+[125.067s] Invoked command in '/home/brace/codeSpace/navi/build/rtabmap_slam' returned '0': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/home/brace/codeSpace/navi/install/brace:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/brace/codeSpace/navi/build/rtabmap_slam

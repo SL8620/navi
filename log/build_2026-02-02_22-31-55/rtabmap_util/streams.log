@@ -1,0 +1,64 @@
+[0.044s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_util': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap_util -- -j16 -l16
+[0.205s] [ 36%] Built target rtabmap_util_plugins
+[0.271s] [ 42%] Built target rtabmap_rgbd_relay
+[0.272s] [ 47%] Built target rtabmap_rgbd_split
+[0.278s] [ 52%] Built target rtabmap_point_cloud_xyz
+[0.278s] [ 57%] Built target rtabmap_imu_to_tf
+[0.278s] [ 63%] Built target rtabmap_map_assembler
+[0.279s] [ 68%] Built target rtabmap_disparity_to_depth
+[0.279s] [ 73%] Built target rtabmap_point_cloud_xyzrgb
+[0.279s] [ 78%] Built target rtabmap_pointcloud_to_depthimage
+[0.279s] [ 84%] Built target rtabmap_obstacles_detection
+[0.279s] [ 89%] Built target rtabmap_point_cloud_aggregator
+[0.281s] [ 94%] Built target rtabmap_lidar_deskewing
+[0.289s] [100%] Built target rtabmap_point_cloud_assembler
+[0.317s] Invoked command in '/home/brace/codeSpace/navi/build/rtabmap_util' returned '0': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap_util -- -j16 -l16
+[0.322s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_util': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/brace/codeSpace/navi/build/rtabmap_util
+[0.332s] -- Install configuration: "Release"
+[0.333s] -- Execute custom install script
+[0.337s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/environment/library_path.sh
+[0.338s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/environment/library_path.dsv
+[0.339s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/transform_to_tf.py
+[0.339s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/yaml_to_camera_info.py
+[0.339s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/republish_tf_static.py
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/imu_to_tf
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/disparity_to_depth
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/rgbd_relay
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/rgbd_split
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/lidar_deskewing
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/point_cloud_xyz
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/point_cloud_xyzrgb
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/pointcloud_to_depthimage
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/obstacles_detection
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/point_cloud_aggregator
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/point_cloud_assembler
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/lib/rtabmap_util/map_assembler
+[0.340s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/ament_index/resource_index/package_run_dependencies/rtabmap_util
+[0.341s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/ament_index/resource_index/parent_prefix_path/rtabmap_util
+[0.341s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/environment/ament_prefix_path.sh
+[0.341s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/environment/ament_prefix_path.dsv
+[0.341s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/environment/path.sh
+[0.341s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/environment/path.dsv
+[0.341s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/local_setup.bash
+[0.341s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/local_setup.sh
+[0.341s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/local_setup.zsh
+[0.341s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/local_setup.dsv
+[0.341s] -- Symlinking: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/package.dsv
+[0.347s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/ament_index/resource_index/packages/rtabmap_util
+[0.347s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/ament_index/resource_index/rclcpp_components/rtabmap_util
+[0.347s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.347s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.347s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_targets-extras.cmake
+[0.348s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/cmake/ament_cmake_export_libraries-extras.cmake
+[0.348s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilConfig.cmake
+[0.348s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilConfig-version.cmake
+[0.348s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/package.xml
+[0.348s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_util/lib/librtabmap_util_plugins.so
+[0.349s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_util/include
+[0.349s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_util/include/rtabmap_util
+[0.349s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_util/include/rtabmap_util/MapsManager.h
+[0.349s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_util/include/rtabmap_util/visibility.h
+[0.349s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_util/include/rtabmap_util/ULogToRosout.h
+[0.350s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport.cmake
+[0.350s] -- Up-to-date: /home/brace/codeSpace/navi/install/rtabmap_util/share/rtabmap_util/cmake/rtabmap_utilExport-release.cmake
+[0.354s] Invoked command in '/home/brace/codeSpace/navi/build/rtabmap_util' returned '0': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/brace/codeSpace/navi/build/rtabmap_util

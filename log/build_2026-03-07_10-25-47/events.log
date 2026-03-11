@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000462] (-) JobUnselected: {'identifier': 'realsense2_ros_mqtt_bridge'}
+[0.000816] (-) JobUnselected: {'identifier': 'realsense2_rviz_plugin'}
+[0.000919] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.000950] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.000985] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.001181] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.001301] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.001328] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.001363] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.001549] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.001626] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.001652] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.001677] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.001701] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.001725] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.001793] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.001821] (brace) JobQueued: {'identifier': 'brace', 'dependencies': OrderedDict()}
+[0.001850] (brace) JobStarted: {'identifier': 'brace'}
+[0.099432] (-) TimerEvent: {}
+[0.199644] (-) TimerEvent: {}
+[0.299860] (-) TimerEvent: {}
+[0.400139] (-) TimerEvent: {}
+[0.441359] (brace) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/brace/codeSpace/navi/build/brace/build', '--no-deps', 'symlink_data'], 'cwd': '/home/brace/codeSpace/navi/build/brace', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh:en_US:en', 'USER': 'brace', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/brace', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.107.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1114', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1621', 'BUNDLED_DEBUGPY_PATH': '/home/brace/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6555', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'brace', 'JOURNAL_STREAM': '8:7452', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'brace', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/brace/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/brace/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/brace/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/brace-NUC13:@/tmp/.ICE-unix/1593,unix/brace-NUC13:/tmp/.ICE-unix/1593', 'INVOCATION_ID': 'f553d53479494e05ab4b6a4bb4f20eeb', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/brace/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3da0ecba068f628d.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/brace/.config/Code/User/workspaceStorage/bcb6da3f859dc44d5fe9070f270c614a/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2baa52ad55.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/brace/codeSpace/navi/build/brace', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/brace/codeSpace/navi/build/brace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[0.500209] (-) TimerEvent: {}
+[0.600370] (-) TimerEvent: {}
+[0.629543] (brace) StdoutLine: {'line': b'running develop\n'}
+[0.700461] (-) TimerEvent: {}
+[0.721306] (brace) StdoutLine: {'line': b'running egg_info\n'}
+[0.721595] (brace) StdoutLine: {'line': b'creating brace.egg-info\n'}
+[0.721644] (brace) StdoutLine: {'line': b'writing brace.egg-info/PKG-INFO\n'}
+[0.721730] (brace) StdoutLine: {'line': b'writing dependency_links to brace.egg-info/dependency_links.txt\n'}
+[0.721809] (brace) StdoutLine: {'line': b'writing entry points to brace.egg-info/entry_points.txt\n'}
+[0.721932] (brace) StdoutLine: {'line': b'writing requirements to brace.egg-info/requires.txt\n'}
+[0.722097] (brace) StdoutLine: {'line': b'writing top-level names to brace.egg-info/top_level.txt\n'}
+[0.722235] (brace) StdoutLine: {'line': b"writing manifest file 'brace.egg-info/SOURCES.txt'\n"}
+[0.723585] (brace) StdoutLine: {'line': b"reading manifest file 'brace.egg-info/SOURCES.txt'\n"}
+[0.724081] (brace) StdoutLine: {'line': b"writing manifest file 'brace.egg-info/SOURCES.txt'\n"}
+[0.725481] (brace) StdoutLine: {'line': b'running build_ext\n'}
+[0.725637] (brace) StdoutLine: {'line': b'Creating /home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages/brace.egg-link (link to .)\n'}
+[0.726247] (brace) StdoutLine: {'line': b'\n'}
+[0.726424] (brace) StdoutLine: {'line': b'Installed /home/brace/codeSpace/navi/build/brace\n'}
+[0.726644] (brace) StdoutLine: {'line': b'running symlink_data\n'}
+[0.726785] (brace) StdoutLine: {'line': b'creating /home/brace/codeSpace/navi/install/brace/share/ament_index\n'}
+[0.726862] (brace) StdoutLine: {'line': b'creating /home/brace/codeSpace/navi/install/brace/share/ament_index/resource_index\n'}
+[0.726938] (brace) StdoutLine: {'line': b'creating /home/brace/codeSpace/navi/install/brace/share/ament_index/resource_index/packages\n'}
+[0.727013] (brace) StdoutLine: {'line': b'symbolically linking /home/brace/codeSpace/navi/build/brace/resource/brace -> /home/brace/codeSpace/navi/install/brace/share/ament_index/resource_index/packages\n'}
+[0.727087] (brace) StdoutLine: {'line': b'symbolically linking /home/brace/codeSpace/navi/build/brace/package.xml -> /home/brace/codeSpace/navi/install/brace/share/brace\n'}
+[0.727162] (brace) StdoutLine: {'line': b'creating /home/brace/codeSpace/navi/install/brace/share/brace/launch\n'}
+[0.727235] (brace) StdoutLine: {'line': b'symbolically linking /home/brace/codeSpace/navi/build/brace/launch/display.launch.py -> /home/brace/codeSpace/navi/install/brace/share/brace/launch\n'}
+[0.727310] (brace) StdoutLine: {'line': b'creating /home/brace/codeSpace/navi/install/brace/share/brace/rviz\n'}
+[0.727383] (brace) StdoutLine: {'line': b'symbolically linking /home/brace/codeSpace/navi/build/brace/rviz/brace.rviz -> /home/brace/codeSpace/navi/install/brace/share/brace/rviz\n'}
+[0.727456] (brace) StdoutLine: {'line': b'creating /home/brace/codeSpace/navi/install/brace/share/brace/urdf\n'}
+[0.727539] (brace) StdoutLine: {'line': b'symbolically linking /home/brace/codeSpace/navi/build/brace/urdf/brace.urdf -> /home/brace/codeSpace/navi/install/brace/share/brace/urdf\n'}
+[0.727618] (brace) StdoutLine: {'line': b'creating /home/brace/codeSpace/navi/install/brace/share/brace/meshes\n'}
+[0.727693] (brace) StdoutLine: {'line': b'symbolically linking /home/brace/codeSpace/navi/build/brace/meshes/base_link.STL -> /home/brace/codeSpace/navi/install/brace/share/brace/meshes\n'}
+[0.749720] (brace) CommandEnded: {'returncode': 0}
+[0.761399] (brace) JobEnded: {'identifier': 'brace', 'rc': 0}
+[0.761837] (-) EventReactorShutdown: {}

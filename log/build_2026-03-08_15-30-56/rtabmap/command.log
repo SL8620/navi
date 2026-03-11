@@ -1,0 +1,1 @@
+Invoking command in '/home/brace/codeSpace/navi/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/home/brace/codeSpace/navi/install/brace:/opt/ros/humble /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap -- -j16 -l16

@@ -1,0 +1,1 @@
+/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_examples/scripts/depth_crop_for_scan.py

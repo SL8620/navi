@@ -1,0 +1,18 @@
+running egg_info
+writing ../navi/build/brace/brace.egg-info/PKG-INFO
+writing dependency_links to ../navi/build/brace/brace.egg-info/dependency_links.txt
+writing entry points to ../navi/build/brace/brace.egg-info/entry_points.txt
+writing requirements to ../navi/build/brace/brace.egg-info/requires.txt
+writing top-level names to ../navi/build/brace/brace.egg-info/top_level.txt
+reading manifest file '../navi/build/brace/brace.egg-info/SOURCES.txt'
+writing manifest file '../navi/build/brace/brace.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages/brace-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../navi/build/brace/brace.egg-info to /home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages/brace-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/brace/codeSpace/navi/build/brace/install.log'

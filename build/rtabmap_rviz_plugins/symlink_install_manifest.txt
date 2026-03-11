@@ -1,0 +1,17 @@
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins//rviz_plugins.xml
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/rtabmap_rviz_plugins
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/rtabmap_rviz_plugins
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/ament_prefix_path.sh
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/ament_prefix_path.dsv
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/path.sh
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/environment/path.dsv
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.bash
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.sh
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.zsh
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/local_setup.dsv
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/package.dsv
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/ament_index/resource_index/packages/rtabmap_rviz_plugins
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rtabmap_rviz_plugins
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/cmake/rtabmap_rviz_pluginsConfig.cmake
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/cmake/rtabmap_rviz_pluginsConfig-version.cmake
+/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/share/rtabmap_rviz_plugins/package.xml

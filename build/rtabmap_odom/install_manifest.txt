@@ -1,0 +1,6 @@
+/home/brace/codeSpace/navi/install/rtabmap_odom/lib/librtabmap_odom.so
+/home/brace/codeSpace/navi/install/rtabmap_odom/lib/librtabmap_odom_plugins.so
+/home/brace/codeSpace/navi/install/rtabmap_odom/include/rtabmap_odom/OdometryROS.h
+/home/brace/codeSpace/navi/install/rtabmap_odom/include/rtabmap_odom/visibility.h
+/home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport.cmake
+/home/brace/codeSpace/navi/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport-release.cmake

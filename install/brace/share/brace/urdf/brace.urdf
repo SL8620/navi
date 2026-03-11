@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot name="brace">
+  <link name="base_link">
+    <inertial>
+      <origin
+        xyz="0.28268 -0.0010981 0.32187"
+        rpy="0 0 0" />
+      <mass
+        value="39.869" />
+      <inertia
+        ixx="0.53208"
+        ixy="4.8609E-05"
+        ixz="-0.0084976"
+        iyy="0.45258"
+        iyz="-0.00013624"
+        izz="0.74109" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 3.141593" />
+      <geometry>
+        <mesh
+          filename="package://brace/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 3.141593" />
+      <geometry>
+        <mesh
+          filename="package://brace/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="camera_link">
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <box size="0.01 0.01 0.01"/>  <!-- 只是占位，可换成你的相机 mesh -->
+    </geometry>
+  </visual>
+</link>
+
+  <!-- base_link +X = 车头（mesh 绕 Z 转 180°）；相机在后方 -X，镜头朝 -X（rpy 0 0 π）。 -->
+  <joint name="camera_joint" type="fixed">
+    <origin
+      xyz="-0.12 0 -0.0335"
+      rpy="0 0 3.141593" />
+    <parent link="base_link"/>
+    <child  link="camera_link"/>
+  </joint>
+</robot>

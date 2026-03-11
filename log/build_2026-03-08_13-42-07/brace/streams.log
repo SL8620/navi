@@ -1,0 +1,16 @@
+[1.149s] Invoking command in '/home/brace/codeSpace/navi/build/brace': PYTHONPATH=/home/brace/codeSpace/navi/build/brace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brace/codeSpace/navi/build/brace/build --no-deps symlink_data
+[1.450s] running develop
+[1.644s] running egg_info
+[1.644s] writing brace.egg-info/PKG-INFO
+[1.644s] writing dependency_links to brace.egg-info/dependency_links.txt
+[1.645s] writing entry points to brace.egg-info/entry_points.txt
+[1.645s] writing requirements to brace.egg-info/requires.txt
+[1.645s] writing top-level names to brace.egg-info/top_level.txt
+[1.646s] reading manifest file 'brace.egg-info/SOURCES.txt'
+[1.647s] writing manifest file 'brace.egg-info/SOURCES.txt'
+[1.648s] running build_ext
+[1.648s] Creating /home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages/brace.egg-link (link to .)
+[1.649s] 
+[1.649s] Installed /home/brace/codeSpace/navi/build/brace
+[1.649s] running symlink_data
+[1.721s] Invoked command in '/home/brace/codeSpace/navi/build/brace' returned '0': PYTHONPATH=/home/brace/codeSpace/navi/build/brace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brace/codeSpace/navi/build/brace/build --no-deps symlink_data

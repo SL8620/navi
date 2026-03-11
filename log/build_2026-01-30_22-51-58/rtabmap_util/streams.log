@@ -1,0 +1,55 @@
+[0.031s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_util': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/realsense2_camera_msgs:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/brace/codeSpace/navi/install/rtabmap_conversions/lib:/home/brace/codeSpace/navi/install/rtabmap_msgs/lib:/home/brace/codeSpace/navi/install/rtabmap/lib:/home/brace/codeSpace/navi/install/rtabmap_slam/lib:/home/brace/codeSpace/navi/install/rtabmap_odom/lib:/home/brace/codeSpace/navi/install/rtabmap_util/lib:/home/brace/codeSpace/navi/install/rtabmap_sync/lib:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins/lib:/home/brace/codeSpace/navi/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap_util -- -j16 -l16
+[0.174s] [  2%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/MapsManager.cpp.o[0m
+[12.518s] [  5%] [32m[1mLinking CXX shared library librtabmap_util_plugins.so[0m
+[14.697s] [ 36%] Built target rtabmap_util_plugins
+[14.748s] [ 42%] [32m[1mLinking CXX executable disparity_to_depth[0m
+[14.749s] [ 42%] [32m[1mLinking CXX executable rgbd_split[0m
+[14.749s] [ 44%] [32m[1mLinking CXX executable pointcloud_to_depthimage[0m
+[14.751s] [ 47%] [32m[1mLinking CXX executable rgbd_relay[0m
+[14.752s] [ 50%] [32m[1mLinking CXX executable map_assembler[0m
+[14.753s] [ 52%] [32m[1mLinking CXX executable lidar_deskewing[0m
+[14.756s] [ 55%] [32m[1mLinking CXX executable imu_to_tf[0m
+[14.756s] [ 57%] [32m[1mLinking CXX executable point_cloud_aggregator[0m
+[14.758s] [ 60%] [32m[1mLinking CXX executable point_cloud_xyzrgb[0m
+[14.758s] [ 63%] [32m[1mLinking CXX executable point_cloud_xyz[0m
+[14.764s] [ 65%] [32m[1mLinking CXX executable obstacles_detection[0m
+[14.770s] [ 68%] [32m[1mLinking CXX executable point_cloud_assembler[0m
+[16.732s] gmake[2]: *** 正在删除文件“map_assembler”
+[16.732s] gmake[2]: *** 正在删除文件“disparity_to_depth”
+[16.732s] gmake[2]: *** 正在删除文件“obstacles_detection”
+[16.732s] gmake[2]: *** 正在删除文件“point_cloud_assembler”
+[16.732s] gmake[2]: *** 正在删除文件“point_cloud_xyz”
+[16.733s] gmake[2]: *** 正在删除文件“rgbd_relay”
+[16.733s] gmake[2]: *** 正在删除文件“point_cloud_xyzrgb”
+[16.733s] gmake[2]: *** 正在删除文件“lidar_deskewing”
+[16.733s] gmake[2]: *** 正在删除文件“rgbd_split”
+[16.733s] gmake[2]: *** 正在删除文件“pointcloud_to_depthimage”
+[16.733s] gmake[2]: *** [CMakeFiles/rtabmap_map_assembler.dir/build.make:604: map_assembler] 中断
+[16.733s] gmake[2]: *** [CMakeFiles/rtabmap_rgbd_relay.dir/build.make:604: rgbd_relay] 中断
+[16.733s] gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/rtabmap_map_assembler.dir/all] 中断
+[16.733s] gmake[1]: *** [CMakeFiles/Makefile2:187: CMakeFiles/rtabmap_rgbd_relay.dir/all] 中断
+[16.733s] gmake[2]: *** [CMakeFiles/rtabmap_obstacles_detection.dir/build.make:604: obstacles_detection] 中断
+[16.733s] gmake[2]: *** [CMakeFiles/rtabmap_point_cloud_assembler.dir/build.make:604: point_cloud_assembler] 中断
+[16.733s] gmake[2]: *** [CMakeFiles/rtabmap_point_cloud_xyz.dir/build.make:604: point_cloud_xyz] 中断
+[16.733s] gmake[2]: *** [CMakeFiles/rtabmap_lidar_deskewing.dir/build.make:604: lidar_deskewing] 中断
+[16.733s] gmake[2]: *** [CMakeFiles/rtabmap_disparity_to_depth.dir/build.make:604: disparity_to_depth] 中断
+[16.733s] gmake[2]: *** 正在删除文件“imu_to_tf”
+[16.733s] gmake[2]: *** [CMakeFiles/rtabmap_rgbd_split.dir/build.make:604: rgbd_split] 中断
+[16.733s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/rtabmap_disparity_to_depth.dir/all] 中断
+[16.733s] gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/rtabmap_lidar_deskewing.dir/all] 中断
+[16.734s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/rtabmap_obstacles_detection.dir/all] 中断
+[16.734s] gmake[2]: *** 正在删除文件“point_cloud_aggregator”
+[16.734s] gmake[2]: *** [CMakeFiles/rtabmap_pointcloud_to_depthimage.dir/build.make:604: pointcloud_to_depthimage] 中断
+[16.734s] gmake[2]: *** [CMakeFiles/rtabmap_point_cloud_xyzrgb.dir/build.make:604: point_cloud_xyzrgb] 中断
+[16.734s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/rtabmap_point_cloud_xyz.dir/all] 中断
+[16.734s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/rtabmap_pointcloud_to_depthimage.dir/all] 中断
+[16.734s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/rtabmap_rgbd_split.dir/all] 中断
+[16.734s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/rtabmap_point_cloud_xyzrgb.dir/all] 中断
+[16.735s] gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/rtabmap_point_cloud_assembler.dir/all] 中断
+[16.735s] gmake[2]: *** wait: 没有子进程。 停止。
+[16.735s] gmake[2]: *** [CMakeFiles/rtabmap_imu_to_tf.dir/build.make:604: imu_to_tf] 中断
+[16.735s] gmake[2]: *** 正在等待未完成的任务....
+[16.735s] gmake[2]: *** wait: 没有子进程。 停止。
+[16.736s] gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/rtabmap_imu_to_tf.dir/all] 中断
+[16.736s] gmake[1]: *** [CMakeFiles/Makefile2:447：CMakeFiles/rtabmap_point_cloud_aggregator.dir/all] 错误 2
+[16.736s] gmake: *** [Makefile:146: all] 中断

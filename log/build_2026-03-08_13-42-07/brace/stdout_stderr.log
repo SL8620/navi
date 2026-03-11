@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing brace.egg-info/PKG-INFO
+writing dependency_links to brace.egg-info/dependency_links.txt
+writing entry points to brace.egg-info/entry_points.txt
+writing requirements to brace.egg-info/requires.txt
+writing top-level names to brace.egg-info/top_level.txt
+reading manifest file 'brace.egg-info/SOURCES.txt'
+writing manifest file 'brace.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/brace/codeSpace/navi/install/brace/lib/python3.10/site-packages/brace.egg-link (link to .)
+
+Installed /home/brace/codeSpace/navi/build/brace
+running symlink_data

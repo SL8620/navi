@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-bc0a89478f598c955de5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtabmap_rviz_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rviz_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rviz_plugins-Release-86235d21a30deb9f81fe.json",
+					"name" : "rtabmap_rviz_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rviz_plugins_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rviz_plugins_autogen-Release-ad28354a1748cd0b644d.json",
+					"name" : "rtabmap_rviz_plugins_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rviz_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rviz_plugins_uninstall-Release-d6a3c89beccbb36f5db8.json",
+					"name" : "rtabmap_rviz_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-06abc096741c7bb9e768.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/brace/codeSpace/navi/build/rtabmap_rviz_plugins",
+		"source" : "/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_rviz_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

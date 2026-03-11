@@ -1,0 +1,20 @@
+[2.740s] Invoking command in '/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_python': PYTHONPATH=/home/brace/codeSpace/navi/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rtabmap_python build --build-base /home/brace/codeSpace/navi/build/rtabmap_python/build install --record /home/brace/codeSpace/navi/build/rtabmap_python/install.log --single-version-externally-managed install_data
+[3.214s] running egg_info
+[3.217s] writing ../../../build/rtabmap_python/rtabmap_python.egg-info/PKG-INFO
+[3.220s] writing dependency_links to ../../../build/rtabmap_python/rtabmap_python.egg-info/dependency_links.txt
+[3.220s] writing entry points to ../../../build/rtabmap_python/rtabmap_python.egg-info/entry_points.txt
+[3.221s] writing requirements to ../../../build/rtabmap_python/rtabmap_python.egg-info/requires.txt
+[3.222s] writing top-level names to ../../../build/rtabmap_python/rtabmap_python.egg-info/top_level.txt
+[3.226s] reading manifest file '../../../build/rtabmap_python/rtabmap_python.egg-info/SOURCES.txt'
+[3.230s] writing manifest file '../../../build/rtabmap_python/rtabmap_python.egg-info/SOURCES.txt'
+[3.231s] running build
+[3.231s] running build_py
+[3.233s] running install
+[3.234s] running install_lib
+[3.239s] running install_data
+[3.240s] running install_egg_info
+[3.248s] removing '/home/brace/codeSpace/navi/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python-0.1.0-py3.10.egg-info' (and everything under it)
+[3.248s] Copying ../../../build/rtabmap_python/rtabmap_python.egg-info to /home/brace/codeSpace/navi/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python-0.1.0-py3.10.egg-info
+[3.259s] running install_scripts
+[3.312s] writing list of installed files to '/home/brace/codeSpace/navi/build/rtabmap_python/install.log'
+[3.510s] Invoked command in '/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_python' returned '0': PYTHONPATH=/home/brace/codeSpace/navi/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rtabmap_python build --build-base /home/brace/codeSpace/navi/build/rtabmap_python/build install --record /home/brace/codeSpace/navi/build/rtabmap_python/install.log --single-version-externally-managed install_data

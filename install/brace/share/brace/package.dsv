@@ -1,0 +1,6 @@
+source;share/brace/hook/pythonpath.ps1
+source;share/brace/hook/pythonpath.dsv
+source;share/brace/hook/pythonpath.sh
+source;share/brace/hook/ament_prefix_path.ps1
+source;share/brace/hook/ament_prefix_path.dsv
+source;share/brace/hook/ament_prefix_path.sh

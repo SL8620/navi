@@ -1,0 +1,34 @@
+[33mCMake Warning at CMakeLists.txt:42 (find_package):
+  By not providing "Findaruco_markers_msgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "aruco_markers_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "aruco_markers_msgs" with any of the following names:
+
+    aruco_markers_msgsConfig.cmake
+    aruco_markers_msgs-config.cmake
+
+  Add the installation prefix of "aruco_markers_msgs" to CMAKE_PREFIX_PATH or
+  set "aruco_markers_msgs_DIR" to a directory containing one of the above
+  files.  If "aruco_markers_msgs" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:44 (find_package):
+  By not providing "Findros2_aruco_interfaces.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "ros2_aruco_interfaces", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "ros2_aruco_interfaces" with any of the following names:
+
+    ros2_aruco_interfacesConfig.cmake
+    ros2_aruco_interfaces-config.cmake
+
+  Add the installation prefix of "ros2_aruco_interfaces" to CMAKE_PREFIX_PATH
+  or set "ros2_aruco_interfaces_DIR" to a directory containing one of the
+  above files.  If "ros2_aruco_interfaces" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m

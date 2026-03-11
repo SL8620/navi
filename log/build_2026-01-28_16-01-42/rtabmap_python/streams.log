@@ -1,0 +1,23 @@
+[0.598s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_python': PYTHONPATH=/home/brace/codeSpace/navi/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brace/codeSpace/navi/build/rtabmap_python/build --no-deps symlink_data
+[0.750s] running develop
+[0.835s] running egg_info
+[0.835s] creating rtabmap_python.egg-info
+[0.835s] writing rtabmap_python.egg-info/PKG-INFO
+[0.835s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[0.835s] writing entry points to rtabmap_python.egg-info/entry_points.txt
+[0.835s] writing requirements to rtabmap_python.egg-info/requires.txt
+[0.835s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[0.835s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.836s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.836s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[0.837s] running build_ext
+[0.837s] Creating /home/brace/codeSpace/navi/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[0.838s] 
+[0.838s] Installed /home/brace/codeSpace/navi/build/rtabmap_python
+[0.838s] running symlink_data
+[0.838s] creating /home/brace/codeSpace/navi/install/rtabmap_python/share/ament_index
+[0.838s] creating /home/brace/codeSpace/navi/install/rtabmap_python/share/ament_index/resource_index
+[0.838s] creating /home/brace/codeSpace/navi/install/rtabmap_python/share/ament_index/resource_index/packages
+[0.838s] symbolically linking /home/brace/codeSpace/navi/build/rtabmap_python/resource/rtabmap_python -> /home/brace/codeSpace/navi/install/rtabmap_python/share/ament_index/resource_index/packages
+[0.838s] symbolically linking /home/brace/codeSpace/navi/build/rtabmap_python/package.xml -> /home/brace/codeSpace/navi/install/rtabmap_python/share/rtabmap_python
+[0.856s] Invoked command in '/home/brace/codeSpace/navi/build/rtabmap_python' returned '0': PYTHONPATH=/home/brace/codeSpace/navi/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brace/codeSpace/navi/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/brace/codeSpace/navi/build/rtabmap_python/build --no-deps symlink_data

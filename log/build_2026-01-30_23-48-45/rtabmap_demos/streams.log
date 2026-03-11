@@ -1,0 +1,58 @@
+[0.021s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_demos': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap_demos -- -j16 -l16
+[0.058s] Invoked command in '/home/brace/codeSpace/navi/build/rtabmap_demos' returned '0': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap_demos -- -j16 -l16
+[0.061s] Invoking command in '/home/brace/codeSpace/navi/build/rtabmap_demos': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --install /home/brace/codeSpace/navi/build/rtabmap_demos
+[0.072s] -- Install configuration: "Release"
+[0.073s] -- Execute custom install script
+[0.073s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/champ/champ_sim_vslam.launch.py
+[0.073s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/champ/champ_vslam.launch.py
+[0.073s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/find_object_demo.launch.py
+[0.073s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_sim_scan2d_demo.launch.py
+[0.073s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_sim_scan3d_assemble_demo.launch.py
+[0.073s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_sim_scan3d_demo.launch.py
+[0.073s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_slam2d.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_slam3d.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/husky/husky_slam3d_assemble.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/isaac/isaac_sim_vslam_demo.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/isaac/isaac_vslam.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/multisession_mapping_demo.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/robot_mapping_demo.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/stereo_outdoor_demo.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_rgbd.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_rgbd_fake_scan.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_rgbd_scan.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_scan.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_rgbd_demo.launch.py
+[0.074s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_rgbd_fake_scan_demo.launch.py
+[0.076s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_rgbd_scan_demo.launch.py
+[0.076s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot3/turtlebot3_sim_scan_demo.launch.py
+[0.076s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot4/turtlebot4_sim_demo.launch.py
+[0.076s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/launch/turtlebot4/turtlebot4_slam.launch.py
+[0.076s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/config/demo_robot_mapping.rviz
+[0.076s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/config/find_object.ini
+[0.076s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/params/champ_nav2_params.yaml
+[0.077s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/params/isaac_nav2_params.yaml
+[0.077s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/params/isaac_vslam_nav2_params.yaml
+[0.077s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/params/turtlebot3_rgbd_nav2_params.yaml
+[0.078s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/params/turtlebot3_rgbd_scan_nav2_params.yaml
+[0.078s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/params/turtlebot3_scan_nav2_params.yaml
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/data/books/4.png
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/data/books/5.png
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/data/books/6.png
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/data/books/7.png
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/data/books/8.png
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/ament_index/resource_index/package_run_dependencies/rtabmap_demos
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/ament_index/resource_index/parent_prefix_path/rtabmap_demos
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/environment/ament_prefix_path.sh
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/environment/ament_prefix_path.dsv
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/environment/path.sh
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/environment/path.dsv
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/local_setup.bash
+[0.079s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/local_setup.sh
+[0.080s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/local_setup.zsh
+[0.080s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/local_setup.dsv
+[0.080s] -- Symlinking: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/package.dsv
+[0.096s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/ament_index/resource_index/packages/rtabmap_demos
+[0.096s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/cmake/rtabmap_demosConfig.cmake
+[0.096s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/cmake/rtabmap_demosConfig-version.cmake
+[0.097s] -- Up-to-date symlink: /home/brace/codeSpace/navi/install/rtabmap_demos/share/rtabmap_demos/package.xml
+[0.100s] Invoked command in '/home/brace/codeSpace/navi/build/rtabmap_demos' returned '0': CMAKE_PREFIX_PATH=/home/brace/codeSpace/navi/install/rtabmap_viz:/home/brace/codeSpace/navi/install/rtabmap_slam:/home/brace/codeSpace/navi/install/rtabmap_odom:/home/brace/codeSpace/navi/install/rtabmap_util:/home/brace/codeSpace/navi/install/rtabmap_sync:/home/brace/codeSpace/navi/install/rtabmap_rviz_plugins:/home/brace/codeSpace/navi/install/rtabmap_conversions:/home/brace/codeSpace/navi/install/rtabmap_msgs:/home/brace/codeSpace/navi/install/rtabmap:/home/brace/codeSpace/navi/install/rtabmap_ros:/home/brace/codeSpace/navi/install/rtabmap_launch:/home/brace/codeSpace/navi/install/rtabmap_examples:/home/brace/codeSpace/navi/install/rtabmap_demos:/home/brace/codeSpace/navi/install/realsense2_rviz_plugin:/home/brace/codeSpace/navi/install/realsense2_description:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --install /home/brace/codeSpace/navi/build/rtabmap_demos

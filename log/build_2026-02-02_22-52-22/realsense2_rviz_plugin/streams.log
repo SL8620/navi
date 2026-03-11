@@ -1,0 +1,21 @@
+[0.831s] Invoking command in '/home/brace/codeSpace/navi/build/realsense2_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --build /home/brace/codeSpace/navi/build/realsense2_rviz_plugin -- -j16 -l16
+[1.030s] Invoked command in '/home/brace/codeSpace/navi/build/realsense2_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --build /home/brace/codeSpace/navi/build/realsense2_rviz_plugin -- -j16 -l16
+[1.048s] Invoking command in '/home/brace/codeSpace/navi/build/realsense2_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --install /home/brace/codeSpace/navi/build/realsense2_rviz_plugin
+[1.111s] -- Install configuration: ""
+[1.111s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/config/rviz_rgbd_plugin_settings.yaml
+[1.112s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/realsense2_rviz_plugin
+[1.116s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/realsense2_rviz_plugin
+[1.116s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/environment/ament_prefix_path.sh
+[1.116s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/environment/ament_prefix_path.dsv
+[1.117s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/environment/path.sh
+[1.117s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/environment/path.dsv
+[1.117s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/local_setup.bash
+[1.117s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/local_setup.sh
+[1.117s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/local_setup.zsh
+[1.117s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/local_setup.dsv
+[1.117s] -- Installing: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/package.dsv
+[1.117s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/ament_index/resource_index/packages/realsense2_rviz_plugin
+[1.117s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/cmake/realsense2_rviz_pluginConfig.cmake
+[1.118s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/cmake/realsense2_rviz_pluginConfig-version.cmake
+[1.118s] -- Up-to-date: /home/brace/codeSpace/navi/install/realsense2_rviz_plugin/share/realsense2_rviz_plugin/package.xml
+[1.133s] Invoked command in '/home/brace/codeSpace/navi/build/realsense2_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brace/codeSpace/navi/install/rtabmap_python:/home/brace/codeSpace/navi/install/realsense2_ros_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --install /home/brace/codeSpace/navi/build/realsense2_rviz_plugin
