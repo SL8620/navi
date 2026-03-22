@@ -1,7 +1,15 @@
-# Nav2 parameters tuned for this workspace setup:
-# - RTAB-Map publishes /map for SLAM (static_layer is for localization mode only)
-# - RGBD odometry topic is /rgbd_odometry/odom
-# - LaserScan on /scan (from cloud_obstacle_to_scan)
+# Nav2 参数文件 — 定位（Localization）模式
+#
+# 与 nav2_realsense_rtabmap_params.yaml 的区别：
+# - global_costmap 加入 static_layer，订阅 RTAB-Map 发出的 /map（已建好的静态地图）
+# - 保留 obstacle_layer 用于 /scan 感知动态障碍
+# - global_costmap.update_frequency 降低，节省资源
+#
+# 用法：
+#   ros2 launch brace brace_realsense_nav.launch.py \
+#       localization:=true \
+#       delete_old_map:=false \
+#       nav2_params:=/home/brace/codeSpace/navi/config/nav2_realsense_rtabmap_params_localization.yaml
 
 bt_navigator:
   ros__parameters:
@@ -49,11 +57,11 @@ controller_server:
       debug_trajectory_details: True
       min_vel_x: 0.0
       min_vel_y: 0.0
-      max_vel_x: 0.1
+      max_vel_x: 0.26
       max_vel_y: 0.0
-      max_vel_theta: 1.5
+      max_vel_theta: 1.0
       min_speed_xy: 0.0
-      max_speed_xy: 0.1
+      max_speed_xy: 0.26
       min_speed_theta: 0.0
       acc_lim_x: 2.5
       acc_lim_y: 0.0
@@ -69,7 +77,7 @@ controller_server:
       angular_granularity: 0.025
       transform_tolerance: 0.2
       xy_goal_tolerance: 0.25
-      trans_stopped_velocity: 0.08
+      trans_stopped_velocity: 0.25
       short_circuit_trajectory_evaluation: True
       stateful: True
       critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign", "PathDist", "GoalDist"]
@@ -84,6 +92,7 @@ controller_server:
       RotateToGoal.slowing_factor: 5.0
       RotateToGoal.lookahead_time: -1.0
 
+# local_costmap: 实时感知动态障碍，5×5m 滚动窗口与 /scan 5m 范围匹配
 local_costmap:
   ros__parameters:
     use_sim_time: False
@@ -100,8 +109,8 @@ local_costmap:
 
     inflation_layer:
       plugin: "nav2_costmap_2d::InflationLayer"
-      cost_scaling_factor: 3.0
-      inflation_radius: 0.30
+      cost_scaling_factor: 5.0
+      inflation_radius: 0.35
 
     obstacle_layer:
       plugin: "nav2_costmap_2d::ObstacleLayer"
@@ -115,24 +124,31 @@ local_costmap:
         clearing: True
         marking: True
         data_type: "LaserScan"
-        raytrace_max_range: 3.0
+        raytrace_max_range: 5.0
         raytrace_min_range: 0.40
-        obstacle_max_range: 3.0
+        obstacle_max_range: 5.0
         obstacle_min_range: 0.40
 
     always_send_full_costmap: True
 
+# global_costmap: 订阅 RTAB-Map 已建好的 /map 作为底图（高精度），
+# obstacle_layer 基于 /scan 感知动态障碍，两者叠加实现准确定位的全局导航
 global_costmap:
   ros__parameters:
     use_sim_time: False
     update_frequency: 1.0
-    publish_frequency: 1.0
+    publish_frequency: 0.5
     global_frame: map
     robot_base_frame: base_link
     robot_radius: 0.18
     resolution: 0.05
     track_unknown_space: false
-    plugins: ["obstacle_layer", "inflation_layer"]
+    plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+
+    static_layer:
+      plugin: "nav2_costmap_2d::StaticLayer"
+      enabled: True
+      subscribe_to_updates: True
 
     obstacle_layer:
       enabled: True
@@ -145,9 +161,9 @@ global_costmap:
         clearing: True
         marking: True
         data_type: "LaserScan"
-        raytrace_max_range: 3.0
+        raytrace_max_range: 5.0
         raytrace_min_range: 0.40
-        obstacle_max_range: 3.0
+        obstacle_max_range: 5.0
         obstacle_min_range: 0.40
 
     inflation_layer:
@@ -207,8 +223,8 @@ velocity_smoother:
     smoothing_frequency: 20.0
     scale_velocities: False
     feedback: "OPEN_LOOP"
-    max_velocity: [0.1, 0.0, 3.0]
-    min_velocity: [-0.1, 0.0, -3.0]
+    max_velocity: [0.26, 0.0, 1.0]
+    min_velocity: [-0.26, 0.0, -1.0]
     max_accel: [2.5, 0.0, 3.2]
     max_decel: [-2.5, 0.0, -3.2]
     odom_topic: /rgbd_odometry/odom
