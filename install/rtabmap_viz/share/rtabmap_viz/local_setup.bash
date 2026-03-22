@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/build/rtabmap_viz/ament_cmake_environment_hooks/local_setup.bash

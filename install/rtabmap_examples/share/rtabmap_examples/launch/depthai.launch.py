@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_examples/launch/depthai.launch.py

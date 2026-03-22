@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/build/rtabmap_msgs/rosidl_typesupport_introspection_c/rtabmap_msgs/srv/detail/set_label__rosidl_typesupport_introspection_c.h

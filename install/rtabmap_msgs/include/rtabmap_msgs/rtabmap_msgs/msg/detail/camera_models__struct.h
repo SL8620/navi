@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/msg/detail/camera_models__struct.h

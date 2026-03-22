@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_examples/launch/brace_realsense_nav.launch.py

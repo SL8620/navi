@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_demos/launch/husky/husky_slam2d.launch.py

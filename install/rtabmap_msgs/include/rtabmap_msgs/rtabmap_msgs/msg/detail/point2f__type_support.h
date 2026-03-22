@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/msg/detail/point2f__type_support.h

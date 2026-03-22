@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_demos/launch/stereo_outdoor_demo.launch.py

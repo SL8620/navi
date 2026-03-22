@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_examples/launch/lidar3d_assemble_x2.launch.py

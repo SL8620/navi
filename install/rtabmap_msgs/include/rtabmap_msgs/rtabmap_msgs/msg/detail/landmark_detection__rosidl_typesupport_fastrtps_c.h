@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/build/rtabmap_msgs/rosidl_typesupport_fastrtps_c/rtabmap_msgs/msg/detail/landmark_detection__rosidl_typesupport_fastrtps_c.h

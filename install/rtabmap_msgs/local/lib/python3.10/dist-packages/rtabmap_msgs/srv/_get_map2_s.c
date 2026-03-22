@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/build/rtabmap_msgs/rosidl_generator_py/rtabmap_msgs/srv/_get_map2_s.c

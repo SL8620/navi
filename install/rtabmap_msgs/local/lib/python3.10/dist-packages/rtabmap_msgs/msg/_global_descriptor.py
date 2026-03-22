@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/build/rtabmap_msgs/rosidl_generator_py/rtabmap_msgs/msg/_global_descriptor.py

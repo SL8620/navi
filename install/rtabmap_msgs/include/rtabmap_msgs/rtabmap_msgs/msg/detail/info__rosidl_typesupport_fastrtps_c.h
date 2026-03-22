@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/build/rtabmap_msgs/rosidl_typesupport_fastrtps_c/rtabmap_msgs/msg/detail/info__rosidl_typesupport_fastrtps_c.h

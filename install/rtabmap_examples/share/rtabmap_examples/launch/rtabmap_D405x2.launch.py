@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/src/rtabmap_ros/rtabmap_examples/launch/rtabmap_D405x2.launch.py

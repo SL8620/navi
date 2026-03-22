@@ -1,1 +1,0 @@
-/home/brace/codeSpace/navi/build/rtabmap_msgs/rosidl_generator_cpp/rtabmap_msgs/msg/detail/global_descriptor__builder.hpp
