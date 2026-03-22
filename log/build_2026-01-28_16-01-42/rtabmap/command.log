@@ -1,6 +1,0 @@
-Invoking command in '/home/brace/codeSpace/navi/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brace/codeSpace/navi/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/brace/codeSpace/navi/install/rtabmap
-Invoked command in '/home/brace/codeSpace/navi/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brace/codeSpace/navi/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/brace/codeSpace/navi/install/rtabmap
-Invoking command in '/home/brace/codeSpace/navi/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap -- -j16 -l16
-Invoked command in '/home/brace/codeSpace/navi/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap -- -j16 -l16
-Invoking command in '/home/brace/codeSpace/navi/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/brace/codeSpace/navi/build/rtabmap
-Invoked command in '/home/brace/codeSpace/navi/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/brace/codeSpace/navi/build/rtabmap

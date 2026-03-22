@@ -1,4 +1,0 @@
-import sys
-if sys.prefix == '/usr':
-    sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/brace/codeSpace/navi/install/rtabmap_python'

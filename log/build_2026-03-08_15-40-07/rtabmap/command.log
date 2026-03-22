@@ -1,2 +1,0 @@
-Invoking command in '/home/brace/codeSpace/navi/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap -- -j16 -l16
-Invoked command in '/home/brace/codeSpace/navi/build/rtabmap' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brace/codeSpace/navi/build/rtabmap -- -j16 -l16
