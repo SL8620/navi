@@ -1,0 +1,48 @@
+# ROS2 build artifacts
+install/
+build/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+eggs/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Maps and databases (large binary files)
+*.pgm
+*.png
+*.yaml
+*.db
+*.db.bak
+*.ros
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Logs
+*.log
+ros2_logs/
+
+# Environment
+.env
+.venv
+
+# RViz configs (optional, uncomment if needed)
+# *.rviz
